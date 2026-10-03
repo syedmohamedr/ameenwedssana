@@ -69,7 +69,7 @@ const WEDDING_CONFIG = {
 
   // WhatsApp & Sharing Actions
   contact: {
-    whatsappNumber: "918606311719",
+    whatsappNumber: "918589994724",
     rsvpMessage: "Assalamu Alaikum! Confirming our attendance for the wedding celebration of Ameenul Ashif & Sana Nazrin on 27th December 2026 at Cloud 7 Convention Centre.",
     shareMessage: "✨ You are cordially invited to celebrate the joyous wedding of Ameenul Ashif & Sana Nazrin on 27th December 2026 at Cloud 7 Convention Centre, Keralasseri. View the wedding invitation:"
   },
