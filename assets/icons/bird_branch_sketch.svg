@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" fill="none" stroke="#B86B77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Organic Branch with Leaves -->
+  <path d="M5 65 C40 60 80 50 155 42" stroke-width="2.2"/>
+  <path d="M45 58 C55 48 70 46 80 48"/>
+  <path d="M95 48 C105 40 120 42 130 45"/>
+  <!-- Leaves on Branch -->
+  <path d="M25 62 C22 52 28 48 35 55 C30 62 26 62 25 62 Z" fill="rgba(184, 107, 119, 0.08)"/>
+  <path d="M60 52 C58 42 66 38 72 45 C68 52 62 52 60 52 Z" fill="rgba(184, 107, 119, 0.08)"/>
+  <path d="M110 43 C108 33 118 30 122 38 C118 43 112 43 110 43 Z" fill="rgba(184, 107, 119, 0.08)"/>
+  <path d="M140 43 C142 34 150 34 152 42 C148 45 142 45 140 43 Z" fill="rgba(184, 107, 119, 0.08)"/>
+  <!-- Little Bird Perched on Branch -->
+  <!-- Tail Feathers -->
+  <path d="M68 53 C60 58 48 68 42 72"/>
+  <path d="M66 54 C58 62 50 72 46 76"/>
+  <!-- Body & Wing -->
+  <path d="M78 52 C70 50 68 40 76 32 C84 25 96 28 98 38 C100 46 92 52 82 52" fill="rgba(184, 107, 119, 0.06)"/>
+  <path d="M78 40 C72 42 70 48 76 50 C80 51 86 46 84 40 Z"/>
+  <path d="M75 44 C72 46 72 50 76 50"/>
+  <!-- Head & Beak -->
+  <path d="M96 32 C98 26 106 25 110 30 C112 33 108 38 102 38" fill="rgba(184, 107, 119, 0.06)"/>
+  <path d="M110 29 L116 28 L111 32 Z" fill="#B86B77"/>
+  <circle cx="104" cy="29" r="1.4" fill="#B86B77"/>
+  <!-- Feet Grasping Branch -->
+  <path d="M80 52 L80 55 M83 51 L84 54"/>
+</svg>

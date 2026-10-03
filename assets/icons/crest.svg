@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C59B27"/>
+      <stop offset="40%" stop-color="#F5E6C8"/>
+      <stop offset="70%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C6615"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#goldGradient)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Central Arch & Diamond Motif -->
+    <path d="M100 20 L112 35 L100 50 L88 35 Z" fill="url(#goldGradient)" opacity="0.15"/>
+    <path d="M100 12 L116 35 L100 58 L84 35 Z" stroke-width="1.2"/>
+    <circle cx="100" cy="35" r="3" fill="url(#goldGradient)"/>
+    
+    <!-- Top Crown / Petals -->
+    <path d="M100 8 C100 4, 102 2, 100 0 C98 2, 100 4, 100 8 Z" fill="url(#goldGradient)"/>
+    <path d="M92 14 C88 8, 85 7, 82 8 C85 11, 88 13, 92 14 Z" fill="url(#goldGradient)"/>
+    <path d="M108 14 C112 8, 115 7, 118 8 C115 11, 112 13, 108 14 Z" fill="url(#goldGradient)"/>
+    
+    <!-- Symmetrical Floral Tendrils Left -->
+    <path d="M84 35 C65 35, 45 42, 35 55 C25 68, 30 82, 45 80 C58 78, 62 65, 55 58 C48 50, 32 55, 30 70 C28 85, 48 95, 70 90 C85 86, 95 72, 98 60" />
+    <path d="M60 48 C50 40, 38 42, 32 48" />
+    <circle cx="28" cy="72" r="2.5" fill="url(#goldGradient)"/>
+    <circle cx="48" cy="80" r="2" fill="url(#goldGradient)"/>
+    
+    <!-- Symmetrical Floral Tendrils Right -->
+    <path d="M116 35 C135 35, 155 42, 165 55 C175 68, 170 82, 155 80 C142 78, 138 65, 145 58 C152 50, 168 55, 170 70 C172 85, 152 95, 130 90 C115 86, 105 72, 102 60" />
+    <path d="M140 48 C150 40, 162 42, 168 48" />
+    <circle cx="172" cy="72" r="2.5" fill="url(#goldGradient)"/>
+    <circle cx="152" cy="80" r="2" fill="url(#goldGradient)"/>
+    
+    <!-- Bottom Flourish -->
+    <path d="M85 88 C92 98, 100 102, 100 108 C100 102, 108 98, 115 88" stroke-width="1.2"/>
+    <circle cx="100" cy="112" r="2" fill="url(#goldGradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#FAF8F5">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="Wedding Invitation of Ameenul Ashif & Sana Nazrin — 27 December 2026 at Cloud 7 Convention Centre, Keralasseri, Palakkad.">
+  
+  <!-- Open Graph / WhatsApp Social Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wedding Invitation: Ameenul Ashif & Sana Nazrin">
+  <meta property="og:description" content="With the blessings of Allah & our beloved families, we cordially invite you to celebrate the joyous wedding of Ameenul Ashif & Sana Nazrin on 27th December 2026.">
+  <meta property="og:image" content="assets/images/couple_art.jpg">
+  
+  <title>Wedding Invitation | Ameenul Ashif &amp; Sana Nazrin</title>
+
+  <!-- Google Fonts: Luxury Romantic Script, Classical Serif, and Modern Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=Great+Vibes&family=Marcellus&family=Montserrat:wght@200;300;400;500;600;700;800&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=20261003_3">
+</head>
+<body class="is-locked">
+
+  <!-- Ambient Royal Stardust & Tumbling Rose Petal Canvases -->
+  <canvas id="stardustCanvas" class="stardust-canvas"></canvas>
+  <canvas id="petalCanvas" class="petal-canvas"></canvas>
+
+  <!-- Floating Header Controls (Minimalist Dual Glass Pills) -->
+  <div class="floating-header-controls">
+    <button id="btnReminder" class="floating-circle-btn" aria-label="Wedding Reminder" title="Add Reminder">
+      <span class="floating-btn-emoji">🔔</span>
+    </button>
+    <button id="audioToggleBtn" class="floating-circle-btn" aria-label="Toggle Wedding Music" title="Toggle Music">
+      <div class="audio-disc">
+        <div class="sound-wave">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+          <span class="bar bar-4"></span>
+        </div>
+      </div>
+      <span class="audio-label">MUSIC</span>
+    </button>
+  </div>
+
+  <!-- ==============================================================
+       COVER SCREEN / LUXURY PINTEREST WAX-SEALED ENVELOPE (SCREEN 1)
+       ============================================================== -->
+  <section id="coverHero" class="cover-hero">
+    
+    <!-- Warm Ambient Spotlight & Candlelight Atmosphere -->
+    <div class="cover-ambient-glow"></div>
+
+    <!-- Editorial Botanical Corner Etchings -->
+    <div class="cover-corner-flourish top-left">
+      <img src="assets/icons/botanical_corner_sketch.svg" alt="Botanical Flourish">
+    </div>
+    <div class="cover-corner-flourish top-right">
+      <img src="assets/icons/botanical_corner_sketch.svg" alt="Botanical Flourish">
+    </div>
+
+    <!-- Ambient Floating Royal Lanterns -->
+    <div class="cover-bg-lanterns">
+      <div class="bg-lantern left"><img src="assets/icons/hanging_lantern.svg" alt="Hanging Lantern"></div>
+      <div class="bg-lantern right"><img src="assets/icons/hanging_lantern.svg" alt="Hanging Lantern"></div>
+    </div>
+
+    <!-- 3D Envelope Presentation Scene -->
+    <div class="envelope-scene-wrapper" id="envelopeSceneWrapper">
+
+      <!-- Spiritual Header (Authentic Gold Arabic Calligraphy & Subtitle) -->
+      <div class="cover-spiritual-header" id="coverSpiritualHeader">
+        <div class="bismillah-calligraphy-wrap">
+          <img src="assets/images/bismillah_calligraphy_gold.png" alt="Bismillahi Rahmani Rahim" class="bismillah-calligraphy-img" id="bismillahCalligraphyImg">
+        </div>
+        <p class="bismillah-translation">In the Name of Allah, the Most Gracious, the Most Merciful</p>
+        <div class="spiritual-motif-line">
+          <span class="motif-line-dash"></span>
+          <span class="motif-diamond-star">✦</span>
+          <span class="motif-line-dash"></span>
+        </div>
+      </div>
+
+      <!-- Heirloom Archival Wedding Art Showcase (Pastoral Wildflower Etching) -->
+      <div class="cover-sketch-card-container" id="envelopeContainer">
+        <div class="cover-sketch-art-card" id="coverArtCard">
+          
+          <!-- Archival Deckle-Edge Paper Base with Gilded Borders -->
+          <div class="sketch-card-gold-frame"></div>
+          <div class="sketch-card-inner-frame"></div>
+
+          <!-- Delicate Corner Botanical Flourishes -->
+          <div class="sketch-corner-accent top-left">❦</div>
+          <div class="sketch-corner-accent top-right">❦</div>
+          <div class="sketch-corner-accent bottom-left">❦</div>
+          <div class="sketch-corner-accent bottom-right">❦</div>
+
+          <!-- Couple Holding Hands Artwork Viewport -->
+          <div class="cover-sketch-artwork-viewport">
+            <img src="assets/images/couple_holding_hands.jpg" alt="Ameenul Ashif &amp; Sana Nazrin" class="meadow-sketch-img" id="meadowSketchImg">
+            <div class="sketch-vignette-overlay"></div>
+          </div>
+
+          <!-- Elegant Editorial Foil Ribbon / Badge -->
+          <div class="cover-card-ribbon-band">
+            <div class="card-ribbon-fabric"></div>
+            <div class="card-ribbon-content">
+              <div class="cover-couple-stack">
+                <span class="cover-couple-name" id="coverGroomName">AMEENUL ASHIF</span>
+                <span class="cover-heart-divider">♡</span>
+                <span class="cover-couple-name" id="coverBrideName">SANA NAZRIN</span>
+              </div>
+              <span class="card-ribbon-date">27 • DECEMBER • 2026</span>
+            </div>
+          </div>
+
+
+
+          <!-- Elegant Interactive Tap Prompt at Bottom of Card -->
+          <div class="sketch-card-tap-cue" id="sketchCardTapCue" role="button" tabindex="0" aria-label="Tap to open invitation">
+            <span class="tap-cue-sparkle">✧</span>
+            <span class="tap-cue-text">Tap to open invitation</span>
+            <span class="tap-cue-sparkle">✧</span>
+          </div>
+
+        </div> <!-- /.cover-sketch-art-card -->
+      </div> <!-- /.cover-sketch-card-container -->
+
+
+    </div>
+  </section>
+
+  <!-- ==============================================================
+       MAIN INVITATION WRAPPER
+       ============================================================== -->
+  <main id="invitationContent" class="invitation-main">
+
+    <!-- ============================================================
+         THE PINTEREST ROYAL WEDDING INVITATION CARD (CENTERPIECE)
+         Classic Rich Look: Damask Paper, Royal Burgundy & Gold Foil
+         ============================================================ -->
+    <!-- ============================================================
+         THE PINTEREST WEDDING INVITATION CARD (CENTERPIECE)
+         Exact Replica of https://pin.it/62JWSZST5
+         ============================================================ -->
+    <section class="pinterest-card-section" id="pinterestCardSection" data-reveal>
+      
+      <!-- Video Replay & Cinematic Progress Controller -->
+      <div class="video-animation-bar">
+        <button id="btnReplayVideo" class="btn-replay-video" aria-label="Replay Cinematic Invitation Animation">
+          <span class="replay-icon">↻</span>
+          <span class="replay-text">REPLAY ANIMATION</span>
+          <span class="replay-sparkle">✦</span>
+        </button>
+        <div class="video-progress-track">
+          <div class="video-progress-fill animating" id="videoProgressFill"></div>
+        </div>
+      </div>
+
+      <!-- Main Centerpiece Card with Deckle Parchment & Vintage Engraving -->
+      <div class="pinterest-invitation-card devbies-editorial-card vintage-etched-card" id="mainTiltCard">
+        
+        <!-- Corner Botanical Florals -->
+        <div class="card-corner-vine corner-tl">
+          <img src="assets/icons/botanical_corner_sketch.svg" alt="Botanical Vine">
+        </div>
+        <div class="card-corner-vine corner-tr">
+          <img src="assets/icons/botanical_corner_sketch.svg" alt="Botanical Vine">
+        </div>
+
+        <!-- 1. Spiritual Calligraphy Header (Surah Ar-Rum 21 / An-Naba 78:8) -->
+        <div class="etched-top-verse-wrap">
+          <img src="assets/images/quran_verse_pairs.png" alt="وَخَلَقْنَاكُمْ أَزْوَاجًا — الرُّوم ۲۱" class="etched-top-verse-img">
+        </div>
+
+        <!-- 2. Gazebo Architectural Etching in Vintage Frame -->
+        <div class="gazebo-sketch-wrap">
+          <img src="assets/images/gazebo_etching.jpg" alt="Wedding Pavilion Sketch" class="gazebo-sketch-img">
+        </div>
+
+        <!-- 3. Romantic Monogram Calligraphy in Dusty Rose -->
+        <div class="editorial-monogram" id="editorialMonogram">A &amp; S</div>
+
+        <!-- 4. Delicate Romantic Quote in Cursive Script -->
+        <p class="editorial-quote" id="editorialQuote">Two hearts, one journey, and a lifetime of cherished memories</p>
+
+        <!-- 5. Craftsman Overlapping Line Photo Frame with Couple Artwork -->
+        <div class="craftsman-photo-frame" id="craftsmanFrame">
+          <img src="assets/images/couple_art.jpg" alt="Ameenul Ashif &amp; Sana Nazrin" class="craftsman-img" id="coupleCharacterImg">
+          <div class="photo-craftsman-lines"></div>
+          <!-- Animated Romantic Stardust Sparkles around Character -->
+          <div class="character-sparkles" aria-hidden="true">
+            <span class="char-sparkle-dot sp-1">✦</span>
+            <span class="char-sparkle-dot sp-2">✧</span>
+            <span class="char-sparkle-dot sp-3">✦</span>
+            <span class="char-sparkle-dot sp-4">✧</span>
+          </div>
+        </div>
+
+        <!-- 6. Pre-Invite Callout & Diamond Divider -->
+        <span class="editorial-invite-lead" id="editorialInviteLead">REQUEST THE HONOR OF YOUR PRESENCE</span>
+        <div class="editorial-divider">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <!-- 7. Couple & Parents Presentation -->
+        <div class="editorial-couple-stack">
+          <div class="editorial-person-block">
+            <span class="editorial-parent-note" id="groomParents">S/o Mr. Asharaf &amp; Mrs. Shareefa</span>
+            <h2 class="editorial-name" id="mainGroomName">AMEENUL ASHIF</h2>
+          </div>
+
+          <div class="editorial-heart-divider">♡</div>
+
+          <div class="editorial-person-block">
+            <h2 class="editorial-name" id="mainBrideName">SANA NAZRIN</h2>
+            <span class="editorial-parent-note" id="brideParents">D/o Mr. Sulaiman &amp; Mrs. Naseema</span>
+          </div>
+        </div>
+
+        <!-- 8. Auspicious Date Callout -->
+        <div class="editorial-date-triptych">
+          <div class="date-triptych-col col-month">
+            <span class="triptych-month" id="triptychMonth">DECEMBER</span>
+            <span class="triptych-sub" id="triptychDayYear">2026, Sunday</span>
+          </div>
+          <div class="date-triptych-col col-day">
+            <span class="triptych-day-num" id="triptychDayNum">27</span>
+          </div>
+          <div class="date-triptych-col col-time">
+            <span class="triptych-time" id="detailTimeFormatted">11.00 - 3.00</span>
+          </div>
+        </div>
+
+        <!-- 9. Venue Line -->
+        <div class="editorial-venue-block">
+          <h3 class="editorial-venue-name" id="detailVenueName">CLOUD 7 CONVENTION CENTRE</h3>
+          <p class="editorial-venue-address">
+            <span class="loc-marker">◎</span> <span id="detailVenueCity">Thadukkassery, Keralasseri, Palakkad</span>
+          </p>
+        </div>
+
+      </div> <!-- /.pinterest-invitation-card -->
+    </section>
+
+    <!-- ============================================================
+         UNIFIED INTERACTIVE SUITE: COUNTDOWN, CALENDAR, VENUE, TIMELINE & RSVP
+         ============================================================ -->
+    <section class="card-section unified-suite-section" data-reveal>
+      <div class="interactive-panel unified-details-card vintage-etched-panel">
+
+        <!-- Corner Botanical Florals -->
+        <div class="card-corner-vine corner-tl">
+          <img src="assets/icons/botanical_corner_sketch.svg" alt="Botanical Vine">
+        </div>
+        <div class="card-corner-vine corner-br">
+          <img src="assets/icons/botanical_corner_sketch.svg" alt="Botanical Vine">
+        </div>
+
+        <!-- 1. LIVE COUNTDOWN & SKETCHED CALENDAR (AS SHOWN IN REFERENCE) -->
+        <div class="unified-sub-block block-countdown">
+          <div class="panel-header">
+            <span class="panel-badge">WEDDING COUNTDOWN</span>
+            <h3 class="panel-title" id="textCountdownHeading">HAPPILY EVER AFTER BEGINS IN</h3>
+          </div>
+
+          <!-- Countdown Digits -->
+          <div class="countdown-grid">
+            <div class="countdown-card">
+              <span class="countdown-val" id="timerDays">00</span>
+              <span class="countdown-lbl">DAYS</span>
+            </div>
+            <div class="countdown-card">
+              <span class="countdown-val" id="timerHours">00</span>
+              <span class="countdown-lbl">HOURS</span>
+            </div>
+            <div class="countdown-card">
+              <span class="countdown-val" id="timerMinutes">00</span>
+              <span class="countdown-lbl">MIN</span>
+            </div>
+            <div class="countdown-card">
+              <span class="countdown-val" id="timerSeconds">00</span>
+              <span class="countdown-lbl">SEC</span>
+            </div>
+          </div>
+
+          <!-- Hand-Drawn Wavy Doodle Border Calendar with Circled Date -->
+          <div class="sketched-calendar-box">
+            <div class="cal-header-title">December, 2026</div>
+            <div class="cal-weekdays-row">
+              <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+            </div>
+            <div class="cal-days-grid">
+              <span class="cal-empty"></span>
+              <span class="cal-day">1</span><span class="cal-day">2</span><span class="cal-day">3</span><span class="cal-day">4</span><span class="cal-day">5</span><span class="cal-day">6</span>
+              <span class="cal-day">7</span><span class="cal-day">8</span><span class="cal-day">9</span><span class="cal-day">10</span><span class="cal-day">11</span><span class="cal-day">12</span><span class="cal-day">13</span>
+              <span class="cal-day">14</span><span class="cal-day">15</span><span class="cal-day">16</span><span class="cal-day">17</span><span class="cal-day">18</span><span class="cal-day">19</span>
+              <span class="cal-day">20</span>
+              <span class="cal-day">21</span><span class="cal-day">22</span><span class="cal-day">23</span><span class="cal-day">24</span><span class="cal-day">25</span><span class="cal-day">26</span>
+              <span class="cal-day cal-day-circled"><span class="circled-num">27</span></span>
+              <span class="cal-day">28</span><span class="cal-day">29</span><span class="cal-day">30</span><span class="cal-day">31</span>
+            </div>
+            <div class="cal-footer-note">December 27, 2026 • Our Wedding Day • 11:00 AM</div>
+          </div>
+
+          <div class="holy-verse-banner">
+            <p class="holy-banner-quote" id="textHolyQuoteAlt">
+              “And among His signs is that He created for you mates from among yourselves, that you may dwell in tranquility with them; and He has put love and mercy between your hearts.”
+            </p>
+            <span class="holy-banner-source" id="textHolyQuoteAltSource">— Holy Quran (Surah Ar-Rum 30:21)</span>
+          </div>
+        </div>
+
+        <!-- Elegant Hairline Diamond Divider -->
+        <div class="unified-card-divider">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <!-- 2. VENUE & ARCHITECTURAL ETCHING -->
+        <div class="unified-sub-block block-venue">
+          <div class="panel-header">
+            <span class="panel-badge">LOCATION</span>
+            <h3 class="panel-title" id="venueNameText">Cloud 7 Convention Centre</h3>
+            <p class="panel-subtitle" id="venueCityText">Thadukkassery, Keralasseri, Palakkad</p>
+          </div>
+
+          <!-- Architectural Manor Etching Frame -->
+          <div class="venue-sketch-card-frame">
+            <img src="assets/images/venue_etching.jpg" alt="Cloud 7 Convention Centre Architectural Etching" class="venue-etching-img">
+          </div>
+
+          <div class="venue-info-text">
+            <div class="venue-sub1" id="venueFullAddress">Cloud 7 Convention Centre, Thadukkassery bus stop in Keralasseri, Palakkad, Kerala</div>
+            <div class="venue-time-badge">Sunday, 27 Dec 2026 • 11:00 AM - 3:00 PM</div>
+          </div>
+
+          <div class="action-buttons-stack">
+            <a id="btnMapDirections" href="https://maps.app.goo.gl/V49z5e1QA4Dc1HM97" target="_blank" rel="noopener noreferrer" class="btn-royal-gold">
+              <span class="btn-ico">📍</span>
+              <span>GET DIRECTIONS (GOOGLE MAPS)</span>
+            </a>
+            <button id="btnAddToCalendar" class="btn-royal-outline">
+              <span class="btn-ico">📅</span>
+              <span>ADD TO CALENDAR</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Elegant Hairline Diamond Divider -->
+        <div class="unified-card-divider">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <!-- 3. CORDIAL RSVP & SKETCHED SONG BIRD -->
+        <div class="unified-sub-block block-rsvp">
+          <div class="rsvp-sketch-icon-wrap">
+            <img src="assets/icons/gift_sketch.svg" alt="Wedding Gift &amp; Envelopes" class="sketch-icon-gift">
+          </div>
+
+          <div class="panel-header">
+            <span class="panel-badge">CORDIAL INVITATION</span>
+            <h3 class="panel-title" id="textWillYouJoin">WILL YOU JOIN US?</h3>
+            <p class="panel-subtitle" id="textWillYouJoinSub">
+              Your prayers and esteemed presence are the greatest gift as we begin our happiest new chapter together.
+            </p>
+          </div>
+
+          <div class="action-buttons-stack">
+            <a id="btnWhatsAppRsvp" href="#" target="_blank" rel="noopener noreferrer" class="btn-royal-gold">
+              <span class="btn-ico">💬</span>
+              <span>WILL YOU ATTEND?</span>
+            </a>
+            <button id="btnShareInvite" class="btn-royal-outline">
+              <span class="btn-ico">💌</span>
+              <span>SHARE INVITATION</span>
+            </button>
+          </div>
+
+          <!-- Bottom Perched Songbird on Leafy Rose Branch -->
+          <div class="card-footer-bird-wrap">
+            <img src="assets/icons/bird_branch_sketch.svg" alt="Bird on Branch" class="sketch-icon-bird">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER SIGN-OFF & BACK TO TOP
+         ============================================================ -->
+    <footer class="card-section site-footer" data-reveal>
+      <div class="footer-inner">
+        <div class="footer-crest-wrap">
+          <img src="assets/icons/crest.svg" alt="Crest" class="footer-crest-img">
+        </div>
+
+        <div class="footer-couple-title" id="footerCoupleName">AMEENUL ASHIF &amp; SANA NAZRIN</div>
+        <div class="footer-date-tag" id="footerDateNumeric">27 • 12 • 2026</div>
+
+        <div class="footer-divider-sparkle">✦ ━━━━ ✦ ━━━━ ✦</div>
+
+        <!-- Wedding Blessing Dua Calligraphy (Barakallahu Lakuma) -->
+        <div class="footer-dua-wrap">
+          <img src="assets/images/barakallah_dua.png" alt="بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ" class="footer-dua-img">
+        </div>
+
+        <div class="scroll-top-wrapper">
+          <button id="btnScrollTop" class="btn-scroll-top" aria-label="Return to top">
+            <span>↑</span>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Configuration & Logic Scripts -->
+  <script src="config.js?v=20261003_2"></script>
+  <script src="script.js?v=20261003_2"></script>
+</body>
+</html>

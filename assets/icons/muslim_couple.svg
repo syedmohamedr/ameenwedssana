@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%" class="muslim-couple-svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="goldGlowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4d0" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#d4af37" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#aa7c11" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldMetalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf3cf"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="70%" stop-color="#f3e1a0"/>
+      <stop offset="100%" stop-color="#9a711a"/>
+    </linearGradient>
+
+    <linearGradient id="sherwaniGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e3d2e"/>
+      <stop offset="50%" stop-color="#09281e"/>
+      <stop offset="100%" stop-color="#041610"/>
+    </linearGradient>
+
+    <linearGradient id="bridalGownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f8f2e4"/>
+      <stop offset="100%" stop-color="#e9ddc8"/>
+    </linearGradient>
+
+    <linearGradient id="hijabGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffdfa"/>
+      <stop offset="60%" stop-color="#f4eedf"/>
+      <stop offset="100%" stop-color="#dfd2bb"/>
+    </linearGradient>
+
+    <linearGradient id="veilGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="70%" stop-color="#f5ecda" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <filter id="coupleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND HALO & ORNAMENTAL ARCH -->
+  <g class="couple-halo" filter="url(#softGlow)">
+    <circle cx="160" cy="160" r="130" fill="url(#goldGlowGrad)"/>
+    <circle cx="160" cy="160" r="135" fill="none" stroke="url(#goldMetalGrad)" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.6"/>
+    <circle cx="160" cy="160" r="142" fill="none" stroke="url(#goldMetalGrad)" stroke-width="0.8" opacity="0.4"/>
+    <!-- Crescent Star Motif on top -->
+    <path d="M160 12 A 6 6 0 0 1 163 22 A 8 8 0 0 0 160 12 Z" fill="url(#goldMetalGrad)" opacity="0.9"/>
+    <path d="M160 25 L161.5 28.5 L165 30 L161.5 31.5 L160 35 L158.5 31.5 L155 30 L158.5 28.5 Z" fill="url(#goldMetalGrad)"/>
+  </g>
+
+  <!-- FLOATING SPARKLES AROUND COUPLE -->
+  <g class="floating-sparkles">
+    <path d="M60 120 L62 125 L67 127 L62 129 L60 134 L58 129 L53 127 L58 125 Z" fill="url(#goldMetalGrad)" class="sparkle sp-1"/>
+    <path d="M260 110 L261.5 114 L265 116 L261.5 118 L260 122 L258.5 118 L255 116 L258.5 114 Z" fill="url(#goldMetalGrad)" class="sparkle sp-2"/>
+    <path d="M75 220 L76.5 223 L80 225 L76.5 227 L75 230 L73.5 227 L70 225 L73.5 223 Z" fill="url(#goldMetalGrad)" class="sparkle sp-3"/>
+    <path d="M250 210 L252 215 L257 217 L252 219 L250 224 L248 219 L243 217 L248 215 Z" fill="url(#goldMetalGrad)" class="sparkle sp-4"/>
+  </g>
+
+  <!-- MAIN COUPLE GROUP (GENTLE SWAY / BREATHING ANIMATION) -->
+  <g class="couple-figures" filter="url(#coupleShadow)">
+
+    <!-- ==================== GROOM (LEFT) ==================== -->
+    <g class="groom-group">
+      <!-- Sherwani Torso / Robe -->
+      <path d="M78 280 L88 175 Q98 145 125 140 L145 140 Q155 142 160 148 L160 280 Z" fill="url(#sherwaniGrad)"/>
+      
+      <!-- Gold Embroidered Collar & Trims -->
+      <path d="M125 140 Q135 138 145 140 L145 152 Q135 150 125 152 Z" fill="url(#goldMetalGrad)"/>
+      <line x1="140" y1="152" x2="140" y2="280" stroke="url(#goldMetalGrad)" stroke-width="2.5"/>
+      <!-- Gold Buttons on Sherwani -->
+      <circle cx="140" cy="165" r="2" fill="#fff8e0"/>
+      <circle cx="140" cy="180" r="2" fill="#fff8e0"/>
+      <circle cx="140" cy="195" r="2" fill="#fff8e0"/>
+      <circle cx="140" cy="210" r="2" fill="#fff8e0"/>
+      <circle cx="140" cy="225" r="2" fill="#fff8e0"/>
+
+      <!-- Groom Stole / Dupatta in Gold -->
+      <path d="M102 152 Q112 185 110 240 Q108 265 106 280" fill="none" stroke="url(#goldMetalGrad)" stroke-width="7" stroke-linecap="round" opacity="0.95"/>
+      <path d="M102 152 Q112 185 110 240 Q108 265 106 280" fill="none" stroke="#fff8e0" stroke-width="1.5" stroke-dasharray="2 3" opacity="0.8"/>
+
+      <!-- Groom Neck -->
+      <path d="M128 140 L128 126 Q135 128 142 126 L142 140 Z" fill="#e8cbb0"/>
+
+      <!-- Groom Head / Face Profile -->
+      <path d="M124 126 C120 120 122 100 134 94 C146 88 154 96 154 112 C154 126 142 130 134 130 C128 130 125 128 124 126 Z" fill="#eecfb4"/>
+
+      <!-- Groom Hair & Beard (Modest, Well Groomed) -->
+      <path d="M126 102 C124 92 134 86 145 88 C153 90 156 98 156 106 C150 102 142 100 134 104 C128 108 127 114 126 118 Z" fill="#1a1410"/>
+      <!-- Neat Groom Beard -->
+      <path d="M125 120 C125 127 132 131 138 131 C144 131 148 128 150 124 C146 126 140 127 135 126 C130 125 126 122 125 120 Z" fill="#231b15"/>
+
+      <!-- Groom Arm around Bride gently -->
+      <path d="M88 175 Q96 200 120 215 Q140 220 155 220" fill="none" stroke="url(#sherwaniGrad)" stroke-width="15" stroke-linecap="round"/>
+      <path d="M152 216 Q160 216 166 218" fill="none" stroke="#eecfb4" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+
+    <!-- ==================== BRIDE (RIGHT) ==================== -->
+    <g class="bride-group">
+      <!-- Flowing Sheer Veil (Animated wave behind) -->
+      <path d="M175 100 Q225 120 235 190 Q242 245 240 280 L185 280 Q195 240 190 180 Z" fill="url(#veilGrad)" class="bride-veil"/>
+      <!-- Gold Veil Lace Embroidery Border -->
+      <path d="M175 100 Q225 120 235 190 Q242 245 240 280" fill="none" stroke="url(#goldMetalGrad)" stroke-width="1.8" stroke-dasharray="3 3" opacity="0.85" class="bride-veil-border"/>
+
+      <!-- Bridal Gown Body / Lehenga -->
+      <path d="M155 160 Q175 152 195 160 Q215 190 225 280 L145 280 Q150 220 155 160 Z" fill="url(#bridalGownGrad)"/>
+      <!-- Bridal Dress Gold Motifs -->
+      <path d="M165 200 Q185 195 205 200" fill="none" stroke="url(#goldMetalGrad)" stroke-width="2"/>
+      <path d="M160 235 Q185 230 215 235" fill="none" stroke="url(#goldMetalGrad)" stroke-width="2"/>
+      <path d="M152 270 Q185 265 220 270" fill="none" stroke="url(#goldMetalGrad)" stroke-width="2.5"/>
+
+      <!-- Bridal Neck -->
+      <path d="M175 138 L175 146 Q182 148 190 146 L190 138 Z" fill="#f0d5be"/>
+
+      <!-- Gold Bridal Necklace -->
+      <path d="M173 148 Q182 156 192 148" fill="none" stroke="url(#goldMetalGrad)" stroke-width="2.2"/>
+      <circle cx="182.5" cy="154" r="2" fill="#ffffff"/>
+
+      <!-- Bride Head / Face Profile -->
+      <path d="M168 126 C168 116 172 105 182 105 C192 105 198 114 198 125 C198 136 188 140 180 140 C173 140 168 134 168 126 Z" fill="#f5dbca"/>
+      <!-- Soft Blush on Cheek -->
+      <ellipse cx="178" cy="125" rx="4" ry="2.5" fill="#f3a8a8" opacity="0.65"/>
+      <!-- Gentle Eyelash / Smiling Eye -->
+      <path d="M174 120 Q177 117 180 120" fill="none" stroke="#4a3728" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Sweet Smile -->
+      <path d="M174 131 Q177 134 180 132" fill="none" stroke="#d47070" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- ELEGANT MODEST HIJAB (Framing Bride's Face Gracefully) -->
+      <path d="M166 116 C165 98 178 88 192 90 C206 92 212 105 210 120 C208 135 204 148 198 152 Q185 156 172 152 Q164 135 166 116 Z" fill="url(#hijabGrad)"/>
+      <path d="M168 116 C167 106 174 98 184 98 C192 98 197 104 197 114 C197 122 192 128 184 130 Q173 130 168 116 Z" fill="#f5dbca"/>
+
+      <!-- Golden Matha Patti / Bridal Tiara on Hijab -->
+      <path d="M172 100 Q182 104 192 100" fill="none" stroke="url(#goldMetalGrad)" stroke-width="1.8"/>
+      <circle cx="182" cy="104" r="1.8" fill="#ffffff"/>
+      <path d="M182 92 L182 102" stroke="url(#goldMetalGrad)" stroke-width="1.2"/>
+
+      <!-- Bride's Henna Hands holding Bouquet -->
+      <!-- Bridal Arm -->
+      <path d="M195 165 Q205 195 185 210" fill="none" stroke="url(#bridalGownGrad)" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="178" cy="214" r="5" fill="#f0d5be"/>
+      <!-- Gold Bangles on wrist -->
+      <path d="M181 210 L185 214" stroke="url(#goldMetalGrad)" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ELEGANT WEDDING BOUQUET -->
+      <g class="couple-bouquet">
+        <!-- Leaves -->
+        <path d="M170 205 Q160 198 155 205 Q162 215 170 205 Z" fill="#1b4d3e"/>
+        <path d="M185 205 Q195 198 200 205 Q192 215 185 205 Z" fill="#1b4d3e"/>
+        <path d="M176 195 Q178 185 185 192 Z" fill="#d4af37"/>
+        <!-- Cream & White Rose Blossoms -->
+        <circle cx="172" cy="208" r="6.5" fill="#ffffff"/>
+        <circle cx="172" cy="208" r="4" fill="#fdf0dd"/>
+        <circle cx="182" cy="205" r="7.5" fill="#ffffff"/>
+        <circle cx="182" cy="205" r="4.5" fill="#fae8cf"/>
+        <circle cx="176" cy="215" r="6" fill="#fcedd7"/>
+        <circle cx="185" cy="214" r="5.5" fill="#ffffff"/>
+        <!-- Golden ribbon ties -->
+        <path d="M178 222 Q174 235 170 242" fill="none" stroke="url(#goldMetalGrad)" stroke-width="1.8"/>
+        <path d="M180 222 Q183 235 188 244" fill="none" stroke="url(#goldMetalGrad)" stroke-width="1.8"/>
+      </g>
+    </g>
+
+    <!-- FLOATING GOLDEN LOVE HEART MOTIF ABOVE COUPLE -->
+    <g class="love-heart-glow">
+      <path d="M160 76 C160 72 155 66 149 66 C143 66 139 71 139 76 C139 84 150 91 160 98 C170 91 181 84 181 76 C181 71 177 66 171 66 C165 66 160 72 160 76 Z" fill="url(#goldMetalGrad)" opacity="0.9" class="heart-pulse"/>
+      <circle cx="160" cy="82" r="1.5" fill="#ffffff"/>
+    </g>
+
+  </g>
+</svg>

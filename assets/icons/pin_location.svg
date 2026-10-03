@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Ground Shadow Oval -->
+  <ellipse cx="24" cy="41" rx="16" ry="3.5" fill="#2E3E34"/>
+  <!-- Pin Teardrop Body -->
+  <path d="M24 6C17.37 6 12 11.37 12 18C12 26.5 24 39 24 39C24 39 36 26.5 36 18C36 11.37 30.63 6 24 6Z" fill="#2E3E34"/>
+  <!-- Inner Cutout Circle -->
+  <circle cx="24" cy="18" r="5.5" fill="#F5F2EC"/>
+</svg>

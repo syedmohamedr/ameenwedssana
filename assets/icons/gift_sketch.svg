@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" fill="none" stroke="#B86B77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Sketched Stack of Envelopes / Gift with Ribbon -->
+  <path d="M15 55 L75 55 L85 68 L25 68 Z" fill="rgba(184, 107, 119, 0.04)"/>
+  <path d="M15 55 L25 68"/>
+  <path d="M75 55 L85 68"/>
+  <!-- Middle Letter Box -->
+  <path d="M18 42 L78 42 L82 55 L22 55 Z" fill="rgba(184, 107, 119, 0.06)"/>
+  <path d="M18 42 L22 55"/>
+  <path d="M78 42 L82 55"/>
+  <!-- Top Envelope -->
+  <path d="M22 28 L78 28 L82 42 L26 42 Z" fill="#FFFFFF"/>
+  <path d="M22 28 L26 42"/>
+  <path d="M78 28 L82 42"/>
+  <path d="M22 28 L50 38 L78 28"/>
+  <!-- Tied Ribbon & Bow -->
+  <path d="M50 28 L52 42 M50 42 L52 55 M50 55 L52 68" stroke-dasharray="2 2"/>
+  <!-- Bow at Top -->
+  <path d="M50 28 C42 22 36 20 40 15 C45 10 50 22 50 28 Z"/>
+  <path d="M50 28 C58 22 64 20 60 15 C55 10 50 22 50 28 Z"/>
+  <circle cx="50" cy="27" r="2.5" fill="#B86B77"/>
+  <!-- Floating Sparkles -->
+  <path d="M14 24 L14 18 M11 21 L17 21" stroke-width="1.2"/>
+  <path d="M84 20 L84 14 M81 17 L87 17" stroke-width="1.2"/>
+</svg>
