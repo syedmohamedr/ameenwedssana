@@ -18,6 +18,15 @@ const WEDDING_CONFIG = {
     title: "Bride",
     parents: "D/o Mr. Sulaiman & Mrs. Naseema"
   },
+  
+  // Couple Portrait Image
+  // Available options:
+  // 1. "assets/images/couple_photo.jpg"               -> Original Authentic Photo (Unmodified) [ACTIVE]
+  // 2. "assets/images/couple_shirt_photo.jpg"        -> Photo with White Collared Shirt
+  // 3. "assets/images/couple_sketch_shirt.jpg"        -> Matching Vintage Sketch with Shirt
+  // 4. "assets/images/couple_sketch_portrait.jpg"     -> Matching Vintage Sketch with Sherwani
+  // 5. "assets/images/couple_wedding_photo.jpg"       -> Luxury Wedding Photo in Royal Attire
+  coupleImage: "assets/images/couple_photo.jpg",
 
   // Event Headline
   eventTitle: "WEDDING INVITATION",
@@ -76,9 +85,9 @@ const WEDDING_CONFIG = {
 
   // Audio / Background Music
   audio: {
-    customAudioSrc: "assets/audio/wedding_nasheed.mp3",
-    youtubeUrl: "https://youtu.be/ivrumxRUz_Y",
-    title: "Wedding Nasheed - Muhammad Al Muqit",
+    customAudioSrc: "assets/audio/kalam_eineh.m4a",
+    youtubeUrl: "https://youtube.com/shorts/y6zHZy3RM2w",
+    title: "Kalam Eineh - Sherine Abdel-Wahab",
     soundEnabledDefault: true
   }
 };

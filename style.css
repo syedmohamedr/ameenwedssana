@@ -1373,7 +1373,7 @@ body.is-locked .floating-header-controls {
   width: 100%;
   height: auto;
   display: block;
-  mix-blend-mode: multiply;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
@@ -1408,6 +1408,14 @@ body.is-locked .floating-header-controls {
   transform-origin: center bottom;
   transition: transform 0.4s ease, filter 0.4s ease;
 }
+
+.craftsman-img.is-photo {
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  filter: contrast(1.02) saturate(1.02);
+  object-position: center 14%;
+}
+
 
 @keyframes characterBreathingLife {
   0% {
@@ -2151,7 +2159,7 @@ body.is-locked .floating-header-controls {
   width: 100%;
   height: auto;
   display: block;
-  mix-blend-mode: multiply;
+  object-fit: cover;
   transition: transform 0.5s ease;
 }
 

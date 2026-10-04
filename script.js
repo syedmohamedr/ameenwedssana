@@ -49,6 +49,18 @@
     // Devbies-Style Main Card with Character-by-Character Animations
     animateCharactersInElement(document.getElementById('editorialMonogram'), `${groom.name.charAt(0)} & ${bride.name.charAt(0)}`, 0.2, 0.08);
     safeSetText('editorialQuote', texts.romanticQuote || "Two hearts, one journey, and a lifetime of cherished memories");
+
+    // Couple Portrait Image
+    const coupleImg = document.getElementById('coupleCharacterImg');
+    if (coupleImg && WEDDING_CONFIG.coupleImage) {
+      coupleImg.src = WEDDING_CONFIG.coupleImage;
+      if (WEDDING_CONFIG.coupleImage.includes('photo')) {
+        coupleImg.classList.add('is-photo');
+      } else {
+        coupleImg.classList.remove('is-photo');
+      }
+    }
+
     safeSetText('editorialInviteLead', texts.requestHonourCaps || "REQUEST THE HONOR OF YOUR PRESENCE");
     safeSetText('groomParents', groom.parents || "S/o Mr. Asharaf & Mrs. Shareefa");
     safeSetText('brideParents', bride.parents || "D/o Mr. Sulaiman & Mrs. Naseema");
@@ -179,16 +191,18 @@
       customAudioElement.volume = 0.7;
       customAudioElement.preload = 'none';
 
-      const sourceMp3 = document.createElement('source');
-      sourceMp3.src = customSrc;
-      sourceMp3.type = 'audio/mpeg';
+      const sourceMain = document.createElement('source');
+      sourceMain.src = customSrc;
+      sourceMain.type = customSrc.endsWith('.m4a') ? 'audio/mp4' : 'audio/mpeg';
 
-      const sourceM4a = document.createElement('source');
-      sourceM4a.src = 'assets/audio/wedding_nasheed.m4a';
-      sourceM4a.type = 'audio/mp4';
+      const altSrc = customSrc.replace(/\.(m4a|mp3)$/, customSrc.endsWith('.m4a') ? '.mp3' : '.m4a');
+      const sourceAlt = document.createElement('source');
+      sourceAlt.src = altSrc;
+      sourceAlt.type = altSrc.endsWith('.m4a') ? 'audio/mp4' : 'audio/mpeg';
 
-      customAudioElement.appendChild(sourceMp3);
-      customAudioElement.appendChild(sourceM4a);
+      customAudioElement.appendChild(sourceMain);
+      customAudioElement.appendChild(sourceAlt);
+      customAudioElement.src = customSrc;
     }
   }
 
